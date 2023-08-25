@@ -1,0 +1,6 @@
+/cmake-build*
+/crosshair.h
+/wlr-layer-shell-unstable-v1-client-protocol.c
+/wlr-layer-shell-unstable-v1-client-protocol.h
+/xdg-shell-protocol.c
+/xdg-shell-client-protocol.h
