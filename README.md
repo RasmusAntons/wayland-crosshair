@@ -17,3 +17,14 @@ cd cmake-build
 cmake ..
 make
 ```
+
+## Installation
+
+Copy `wayland_crosshair` and `toggle-crosshair` into the PATH, e.g. `~/bin`.
+
+On KDE, go to System Settings -> Shortcuts -> Add Command, enter `toggle-crosshair` and add a custom shortcut.
+
+## Note
+
+I only tested this on KDE Plasma 5. For me, the crosshair is always in the center of the currently active screen.
+I don't know how it behaves on different window managers or scaling options.

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -f /tmp/wayland_crosshair.pid ]; then
+  pid=$(cat /tmp/wayland_crosshair.pid)
+  rm /tmp/wayland_crosshair.pid
+  exec kill $pid
+else
+  wayland_crosshair &
+  echo $! > /tmp/wayland_crosshair.pid
+fi
